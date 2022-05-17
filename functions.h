@@ -47,7 +47,7 @@ BSTNode* add_node(BSTNode* root, int data){
     }
     return root;
 }
-
+//This function have been provided by Joseph Jess as part of his data structure course
 void in_order_traversal(BSTNode *current) {
     if(current != nullptr) {
         in_order_traversal(current->left);
