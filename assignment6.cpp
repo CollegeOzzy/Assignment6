@@ -15,6 +15,7 @@ int main(){
     root = add_node(root, 7);
     root = add_node(root, 11);
 
+    //These print statements have been provided by Joseph Jess as part of his data structure course
     cout << "root->data: " << root->data << endl;
 
     cout << "root->left->data: " << root->left->data << endl;
